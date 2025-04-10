@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+
+}
+.header{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(23, 21, 21);
+    align-items: center;
+    justify-items: flex-end;
+    align-self: flex-end;
+    align-content: center;
+}
+.header .menu-div{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;    
+
+}
+
+.header .item-menu{
+    color: white;
+    font-weight: 10px;
+    height: max-content;
+    width: 20vw;
+    display: flex;
+    font-style: bold;
+    font-family: sans-serif;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.header .item-menu a{
+text-decoration: none;
+color: whitesmoke;
+font-family: sans-serif;
+font-weight: bold;
+font-size: medium;
+display: flex;
+
+
+}
+.icon-div{
+    color: yellow;
+    size: 20pc;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 20vw;
+
+
+}
+.icon-div div{
+    color: orange;
+    size: 20pc;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 2vw;
+    background-color: ;
+    justify-content:end;
+    
+
+}
+
+.content{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+
+    align-items: center;
+
+}
+.content img{
+    z-index: 0;
+    position: absolute;
+
+}
+.content button{
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    left: 40vw;
+    top: 25vw;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.content .title{
+    position: absolute;
+    color: whitesmoke;
+    left: 15vw;
+    top: 20vw;
+    width: 70vw;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+    gap: 10 10;
+    font-weight: bold;
+
+
+    
+}
+.content .background{
+    position: absolute;
+    background: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-331625-933054.jpg&fm=jpg");
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(23, 21, 21);
+    
+    z-index: -1;
+
+}
+.content .sub-content{
+    display: flex;
+    background-color: black;
+    position: absolute;
+    flex-direction: row-reverse;
+}
